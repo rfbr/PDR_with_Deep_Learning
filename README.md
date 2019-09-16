@@ -5,7 +5,7 @@ Introduction
 Selfsufficient running and independance from the outside environment give smarthpone built-in inertial sensors an important role in indoor navigation. This repository allows the creation of a mobile real-time indoor positioning system using a smart-phone held in hand. 
 In order to achieve this, we will only use the Inertial Measurement Unit (IMU) present in the phone, gathering acceleration and angular velocity. The proposed method is based on 6-DOF odometry, computing relative sensor pose changes between two sequential moments using a neural network. The estimate will then be refined by a Bayesian filter, a particle filter, associated with a map-matching algorithm.
 
- This repository contains only the 6-DOF odometry implmentation using IMU data gathered with an android application, powered by a CNN-LSTM neural network. It allows to create a tflite model with the best trained model, ready to be use in our android application.
+ This repository contains only the 6-DOF odometry implementation using IMU data gathered with an android application, powered by a CNN-LSTM neural network. It allows to create a tflite model with the best trained model, ready to be used in our android application.
 
 Global trajectory estimation
 =
@@ -21,7 +21,7 @@ The neural network
 Our neural network can be divided into three main parts:
 - A convolutional part: accelerometer and gyroscope data are preprocessed separatly. We use 3 layers to extract local features (1D convolutional layer/max pooling/1D convolutional layer) and then concatenate the results.
 - A LSTM part: we use two LSTM layers to process preprocessed IMU data as a time series.
-- A multi-loss layer: this part is used to optimize the different weights between the different loss functions used.
+- A multi-loss layer: this part is used to optimize the different weights between the different loss functions in use.
 
 Project architecture
 =
