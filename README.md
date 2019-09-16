@@ -57,19 +57,19 @@ Results
 = 
 You can find some results in the img folder. Here are some examples:
 - With normal training data:
-![alt text](https://github.com/rfbr/PDR/img/1.png)
-![alt text](https://github.com/rfbr/PDR/img/2.png)
-![alt text](https://github.com/rfbr/PDR/img/4.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/1.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/2.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/4.png)
 - With augmented training data (linear interpolation):
-![alt text](https://github.com/rfbr/PDR/img/Figure_1.png)
-![alt text](https://github.com/rfbr/PDR/img/Figure_2.png)
-![alt text](https://github.com/rfbr/PDR/img/Figure_4.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_1.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_2.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_4.png)
 
 Concerning floor changing detection, data augmentation leads to bad results. Spherical linear interpolation for quaternions might not be the best or we may have done some mistakes: 
 - With normal training data:
-![alt text](https://github.com/rfbr/PDR/img/6.png)
-![alt text](https://github.com/rfbr/PDR/img/7.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/6.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/7.png)
 
 - With augmented training data (linear interpolation):
-![alt text](https://github.com/rfbr/PDR/img/Figure_6.png)
-![alt text](https://github.com/rfbr/PDR/img/Figure_7.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_6.png)
+![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_7.png)
