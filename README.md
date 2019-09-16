@@ -57,19 +57,19 @@ Results
 = 
 You can find some results in the img folder. Here are some examples:
 - With normal training data:
-![alt text](https://github.com/rfbr/PDR/tree/master/img/1.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/2.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/4.png)
+![1](https://user-images.githubusercontent.com/45492759/64983234-5ac9b600-d8c0-11e9-87c0-d53ada211f5f.png)
+![2](https://user-images.githubusercontent.com/45492759/64983238-5bfae300-d8c0-11e9-9af7-31400fd39063.png)
+![4](https://user-images.githubusercontent.com/45492759/64983246-5f8e6a00-d8c0-11e9-92b1-91ffb40a1db4.png)
 - With augmented training data (linear interpolation):
-![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_1.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_2.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_4.png)
+![Figure_1](https://user-images.githubusercontent.com/45492759/64983597-2dc9d300-d8c1-11e9-814e-1b0e227e9efe.png)
+![Figure_2](https://user-images.githubusercontent.com/45492759/64983598-2e626980-d8c1-11e9-8436-0b445d134c62.png)
+![Figure_4](https://user-images.githubusercontent.com/45492759/64983603-2f939680-d8c1-11e9-8088-138280f54684.png)
+
 
 Concerning floor changing detection, data augmentation leads to bad results. Spherical linear interpolation for quaternions might not be the best or we may have done some mistakes: 
 - With normal training data:
-![alt text](https://github.com/rfbr/PDR/tree/master/img/6.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/7.png)
-
+![6](https://user-images.githubusercontent.com/45492759/64983633-3f12df80-d8c1-11e9-88ee-43b68b174306.png)
+![7](https://user-images.githubusercontent.com/45492759/64983637-3fab7600-d8c1-11e9-9296-0be589ef1a5d.png)
 - With augmented training data (linear interpolation):
-![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_6.png)
-![alt text](https://github.com/rfbr/PDR/tree/master/img/Figure_7.png)
+![Figure_6](https://user-images.githubusercontent.com/45492759/64983644-41753980-d8c1-11e9-96ff-b014a8895275.png)
+![Figure_7](https://user-images.githubusercontent.com/45492759/64983797-a6c92a80-d8c1-11e9-9411-5535b6f9ef9b.png)
