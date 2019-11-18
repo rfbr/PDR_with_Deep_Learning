@@ -18,10 +18,15 @@ We use IMU data (acceleration and angular velocity) gathered by an android appli
 
 The neural network
 =
+We tryed different architectures and kept the best one according to the validation loss (tracked with TensorBoard):
+![lolz](https://user-images.githubusercontent.com/45492759/69095785-5d2cc580-0a53-11ea-8c4d-15a0c374ebb5.png)
+The architecture corresponding is the following:
+![NN(1)](https://user-images.githubusercontent.com/45492759/69096096-0ecbf680-0a54-11ea-820e-9668266872a6.png)
+
 Our neural network can be divided into three main parts:
 - A convolutional part: accelerometer and gyroscope data are preprocessed separatly. We use 3 layers to extract local features (1D convolutional layer/max pooling/1D convolutional layer) and then concatenate the results.
 - A LSTM part: we use two LSTM layers to process preprocessed IMU data as a time series.
-- A multi-loss layer: this part is used to optimize the different weights between the different loss functions in use.
+- A multi-loss layer: this part is used to optimize the different weights between the different loss functions in use, according to the multi-task learning theory [[1]](https://arxiv.org/abs/1705.07115). 
 
 Project architecture
 =
