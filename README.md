@@ -1,5 +1,11 @@
 # Deep learning based pedestrian dead reckoning using smartphone IMU
 
+This project was part of my research internship at Kyushu University in Japan, supervised by professor Hideaki Uchiyama. 
+It is based on above works: 
+
+https://github.com/jpsml/6-DOF-Inertial-Odometry
+https://www.mdpi.com/1424-8220/19/17/3777/pdf
+
 Introduction
 =
 Selfsufficient running and independance from the outside environment give smarthpone built-in inertial sensors an important role in indoor navigation. This repository allows the creation of a mobile real-time indoor positioning system using a smart-phone held in hand. 
